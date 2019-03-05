@@ -11,6 +11,7 @@
     <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
 
     <link href="https://fonts.googleapis.com/css?family=Catamaran:100" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Maven+Pro:700" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="https://js.api.here.com/v3/3.0/mapsjs-ui.css?dp-version=1549984893" />
     <script type="text/javascript" src="https://js.api.here.com/v3/3.0/mapsjs-core.js"></script>
     <script type="text/javascript" src="https://js.api.here.com/v3/3.0/mapsjs-service.js"></script>
@@ -19,35 +20,24 @@
 
 </head>
 <body>
-    <header>
-            <img src="img/logo-mid.png" alt="logo">
-            <nav class="nav-menu">
-              <input class="menu-btn" type="checkbox" id="menu-btn" />
-              <label class="menu-icon" for="menu-btn">
-                  <span class="navicon"></span>
-              </label>
-                <ul class="dropDownMenu">
-                    <li><a href="#">Products&#9660;</a>
-                        <ul>
-                            <li><a href="#">All</a></li>
-                            <li><a href="#">Category&#9658;</a>
-                                <ul>
-                                    <li><a href="#">Test1</a></li>
-                                    <li><a href="#">Test2</a></li>
-                                    <li><a href="#">Test3</a></li>
-                                </ul>
-                            </li>
-                        </ul>
-                    </li>
-                    <li><a href="#team">Team</a></li>
-                    <li><a href="#advantages">Advantages</a></li>
-                    <li><a href="#contacts">Contacts</a></li>
-                </ul>
-            </nav>
+    <header class="header">
+        <a href="/index.html" class="logo">
+            <img src="/img/logo-small.png" alt="Logo">
+        </a>
+        <nav>
+            <input class="menu-btn" type="checkbox" id="menu-btn" />
+            <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
+            <ul class="menu">
+                <li><a href="#team">Team</a></li>
+                <li><a href="#about-company">About</a></li>
+                <li><a href="#benefits">Benefits</a></li>
+                <li><a href="#contacts">Contacts</a></li>
+            </ul>
+        </nav>
     </header>
     <section id="main">
         <div class="content-wrap">
-            <h1 class="uppercase"> Slogan will be here soon</h1>
+            <h1 class="uppercase">Noname company site</h1>
             <div id="cssSlider">
                 <div id="sliderImages">
                     <img id="si_1" src="img/slide-1.jpg" alt="Slide 1" />
@@ -56,7 +46,7 @@
                     <div style="clear:left;"></div>
                 </div>
             </div>
-            <h2 class="uppercase">Noname company site</h2>
+            <h2 class="uppercase">Slogan will be here soon</h2>
         </div>
     </section>
     <section id="team">
@@ -124,15 +114,19 @@
                         </div>
                     </div>
                 </div>
+        </div>
+    </section>
+    <section id="about-company">
+        <div class="content-wrap">
             <div class="about-company">
                 <h2>About our company</h2>
                 <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
             </div>
         </div>
     </section>
-    <section id="advantages">
+    <section id="benefits">
         <div class="content-wrap">
-            <h2>Our advantages</h2>
+            <h2>Our benefits</h2>
             <div class="advantage-card">
                 <div class="adv-icon">
                     <i class="fas fa-compass"></i>
@@ -223,26 +217,25 @@
     </section>
 
     <footer>
-        <div class="content-wrap">
-            <h4>Let's Keep in Touch!</h4>
-            <details open>
-               <summary>Created by Ivan Etkalo. 2019</summary>
-                <div class="links-footer">
-                    <a href="https://github.com/apex-ua" target="_blank">
-                        <i class="fab fa-git-square fa-2x" aria-hidden="true"></i>
-                        <span class="sr-only">Git</span>
-                    </a>
-                    <a href="#" target="_blank">
-                        <i class="fab fa-facebook fa-2x" aria-hidden="true"></i>
-                        <span class="sr-only">Facebook</span>
-                    </a>
-                    <a href="#" target="_blank">
-                        <i class="fab fa-twitter-square fa-2x" aria-hidden="true"></i>
-                        <span class="sr-only">Git</span>
-                    </a>
-                </div>
-            </details>
-        </div>
+        <h4>Let's Keep in Touch!</h4>
+        <details open>
+           <summary>Created by Ivan Etkalo. 2019</summary>
+            <div class="links-footer">
+                <a href="https://github.com/apex-ua" target="_blank">
+                    <i class="fab fa-git-square fa-2x" aria-hidden="true"></i>
+                    <span class="sr-only">Git</span>
+                </a>
+                <a href="#" target="_blank">
+                    <i class="fab fa-facebook fa-2x" aria-hidden="true"></i>
+                    <span class="sr-only">Facebook</span>
+                </a>
+                <a href="#" target="_blank">
+                    <i class="fab fa-twitter-square fa-2x" aria-hidden="true"></i>
+                    <span class="sr-only">Git</span>
+                </a>
+            </div>
+        </details>
+
 
     </footer>
 
