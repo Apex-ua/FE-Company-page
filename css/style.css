@@ -69,7 +69,7 @@ footer {
     padding: 20px 0;
     text-align: center;
     background-color: #4c4d4f;
-    background-image: url(/img/arches.png);
+    background-image: url(../img/arches.png);
     color: #fff;
 }
 div.links-footer {
